@@ -7,4 +7,5 @@ hotails.addEventListener("click", ()=>{
 
 coin.addEventListener("animationend", ()=>{
     coin.innerHTML = Math.random()>0.5 ? "Head" : "Tails";
+    coin.classList.toggle('animating');
 });
